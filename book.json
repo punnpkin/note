@@ -1,0 +1,19 @@
+{
+    "title": "Young's Note",
+    "author": "Young",
+    "description": "",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "styles": {
+        "website": "./styles/website.css"
+    },
+    "structure": {
+        "readme": "README.md"
+    },
+    "links": {
+        "sidebar": {
+            "我的狗窝": "https://punnpkin.github.io"
+        }
+    },
+    "plugins":["expandable-chapters"]
+}
