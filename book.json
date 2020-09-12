@@ -15,5 +15,5 @@
             "我的狗窝": "https://punnpkin.github.io"
         }
     },
-    "plugins":["expandable-chapters"]
+    "plugins":["expandable-chapters","mathjax"]
 }
