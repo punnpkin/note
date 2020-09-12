@@ -57,7 +57,7 @@
     - [03_范式](08_MySQL/03_范式.md)
     - [04_调优](08_MySQL/04_调优.md)
     - [05_基础](08_MySQL/05_基础.md)
-    - [06_锁](08_MySQL/06_锁.md)
+    - [06_执行](08_MySQL/06_执行.md)
     - [07_MyBatis](08_MySQL/07_MyBatis.md)
     - [0X_命令](08_MySQL/0X_命令.md)
     - [0X_目录](08_MySQL/0X_目录.md)
