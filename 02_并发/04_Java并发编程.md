@@ -108,7 +108,7 @@ long类型64位，所以在32位的机器上，对long类型的数据操作通�
 
 线程间如何通信，如何同步？
 
-##  Java内存模型
+##  1. Java内存模型
 
 Java之间的通信由Java内存模型控制，线程之前的共享变量存在主内存，另外线程有自己的私有内存。
 
@@ -116,20 +116,20 @@ Java之间的通信由Java内存模型控制，线程之前的共享变量存在
 
 Java 内存模型规范了 JVM 如何提供按需禁用缓存和编译优化的方法，具体来说，这些方法包括 **volatile**、**synchronized** 和 **final** 三个关键字，以及六项 **Happens-Before 规则**。
 
-### volatile
+## 2. volatile
 
 1. 将当前处理器缓存行的数据写回内存
 2. 这个写回内存的操作使得其他CPU缓存了该内存地址的数据无效
 
-### synchronized
+## 3. synchronized
 
 加锁
 
-### final
+## 4. final
 
 final修饰的变量不可变，可以做优化
 
-### Happens-Before 规则
+## 5. Happens-Before 规则
 
 1. **程序的顺序性**：程序前面对某个变量的修改一定是对后续操作可见的
 2. **volatile 变量规则**：如果一个线程先去写一个volatile变量，然后一个线程去读这个变量，那么这个写操作的结果一定对读的这个线程可见。（写操作， Happens-Before 于后续读操作）
