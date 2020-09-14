@@ -12,7 +12,7 @@ synchronized可以保证再同一时刻只有一个线程可以执行某个方�
 
 synchronized可以保证方法或者代码块在运行时，**同一时刻只有一个方法可以进入到临界区**，同时它还可以保证共享变量的内存可见性。
 
-![保护临界区](01_Synchronized.assets/image-20200913190624900.png)
+![保护临界区](01_synchronized.assets/image-20200913190624900.png)
 
 ## 3. Synchronized的使用
 
