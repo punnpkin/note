@@ -11,7 +11,7 @@
 
 - [02_并发]()
     - [00_并发编程的挑战](02_并发/00_并发编程的挑战.md)
-    - [01_Synchronized](02_并发/01_Synchronized.md)
+    - [01_Synchronized](02_并发/01_synchronized.md)
     - [02_AQS](02_并发/02_AQS.md)
     - [03_ReentrantLock](02_并发/03_ReentrantLock.md)
     - [04_Java并发编程](02_并发/04_Java并发编程.md)
